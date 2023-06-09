@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #1E1E1E;
+  --color-secondary: #343434;
+  --color-tertiary: #484848;
+
+  --color-text: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: var(--color-primary); */
+}
+
+.ant-picker-calendar-header {
+  background: var(--color-primary) !important;
+}
+
+.ant-picker-panel {
+  background: var(--color-tertiary) !important;
+}

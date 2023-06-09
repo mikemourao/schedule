@@ -76,13 +76,13 @@ export function Schedule() {
 
     return (
         <Layout className='calendar-layout-aling'>
-            <Row align="middle" style={{minHeight: '10%'}}>
+            <Row align="middle" style={{minHeight: '10%', margin: '0 auto'}}>
                 <Col span={8}>
                     <Image
                         src={Logo}
                     />
                 </Col>
-                <Col span={8}>
+                <Col span={8} style={{}}>
                     <Typography.Title
                         level={1}
                         style={{

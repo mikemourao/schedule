@@ -4,6 +4,7 @@
   --color-tertiary: #484848;
 
   --color-text: #FFFFFF;
+  --color-text-secondary: #CAD5F3;
 }
 
 * {
@@ -19,4 +20,24 @@
 
 .ant-picker-panel {
   background: var(--color-tertiary) !important;
+}
+
+.ant-picker-calendar-date-value {
+  color: var(--color-text);
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-calendar.ant-picker-calendar-full .ant-picker-panel .ant-picker-body th, :where(.css-dev-only-do-not-override-12jzuas).ant-picker-calendar.ant-picker-calendar-full .ant-picker-panel .ant-picker-body td {
+  color: var(--color-text);
+}
+
+.ant-badge-status-text {
+  color: var(--color-text-secondary) !important;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date {
+  border-color: var(--color-primary);
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-calendar-date, :where(.css-dev-only-do-not-override-12jzuas).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-calendar-date-today {
+    background: var(--color-secondary);
 }
